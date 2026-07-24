@@ -1,0 +1,30 @@
+{
+  "baseline_date": "2026-07-23",
+  "units": {
+    "supply": "million barrels per day",
+    "financials": "USD billions unless stated",
+    "equity_price": "USD per share"
+  },
+  "physical_market": {
+    "global_liquids_demand_mbd": 103.0,
+    "hormuz_transit_mbd": 20.0,
+    "available_bypass_mbd": 2.6
+  },
+  "market": {
+    "xom_close": 156.89,
+    "brent_close": 100.69,
+    "wti_close": 92.19
+  },
+  "xom_2025": {
+    "upstream_earnings_billion": 21.4,
+    "energy_products_earnings_billion": 7.423,
+    "chemical_earnings_billion": 0.800,
+    "specialty_earnings_billion": 2.857,
+    "corporate_earnings_billion": -3.590,
+    "net_income_billion": 28.844,
+    "free_cash_flow_billion": 26.131,
+    "production_mboed": 4.736,
+    "shares_outstanding_billion": 4.486
+  },
+  "important_interpretation": "Scenario outputs are conditional modeled judgments, not point forecasts, trading advice, or probability estimates of the geopolitical events occurring."
+}

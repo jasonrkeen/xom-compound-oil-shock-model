@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this model, please cite it using the metadata below."
+title: "XOM Compound Oil Shock Equity Stress Model"
+type: software
+authors:
+  - family-names: Keen
+    given-names: Jason
+url: "https://github.com/jasonrkeen/xom-compound-oil-shock-model"
+repository-code: "https://github.com/jasonrkeen/xom-compound-oil-shock-model"
+version: 0.1.0
+date-released: 2026-07-23
+license: MIT
+keywords:
+  - ExxonMobil
+  - oil supply shock
+  - Strait of Hormuz
+  - geopolitical risk
+  - equity stress testing
+  - Monte Carlo simulation

@@ -1,0 +1,42 @@
+name: Model assumption review
+description: Propose a correction or improvement to a scenario, sensitivity, or source.
+title: "[Assumption]: "
+labels: ["model-assumption"]
+body:
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Model layer
+      options:
+        - Physical supply
+        - Oil and product prices
+        - ExxonMobil segment earnings
+        - Equity valuation
+        - Monte Carlo uncertainty
+        - Data source
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current assumption
+      description: Identify the parameter, equation, source, or scenario entry.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed change
+      description: Explain the replacement and its expected analytical effect.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Link to a filing, government dataset, paper, or other verifiable source.
+    validations:
+      required: true
